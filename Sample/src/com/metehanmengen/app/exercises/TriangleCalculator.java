@@ -1,8 +1,8 @@
-package app.app.exercises;
+package com.metehanmengen.app.exercises;
 
 import java.util.Scanner;
 
-public class triangleCalculator {
+public class TriangleCalculator {
     public static void main(String[] args) {
         // Değişken Tanımlama
         int number1, number2;

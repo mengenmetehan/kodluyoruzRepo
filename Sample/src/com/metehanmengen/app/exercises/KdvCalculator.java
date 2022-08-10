@@ -1,8 +1,8 @@
-package app.app.exercises;
+package com.metehanmengen.app.exercises;
 
 import java.util.Scanner;
 
-public class kdvCalculator {
+public class KdvCalculator {
 
     public static void calculator ()
     {

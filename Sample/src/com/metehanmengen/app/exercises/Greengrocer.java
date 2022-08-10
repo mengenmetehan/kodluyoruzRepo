@@ -1,4 +1,4 @@
-package app.app.exercises;
+package com.metehanmengen.app.exercises;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;

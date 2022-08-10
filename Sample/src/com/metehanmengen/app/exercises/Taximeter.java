@@ -1,8 +1,8 @@
-package app.app.exercises;
+package com.metehanmengen.app.exercises;
 
 import java.util.Scanner;
 
-public class taximeter {
+public class Taximeter {
     public static void main(String[] args) {
         double km;
         int initiatePrice= 10 ;
