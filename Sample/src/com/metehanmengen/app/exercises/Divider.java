@@ -1,6 +1,5 @@
 package com.metehanmengen.app.exercises;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Divider {
