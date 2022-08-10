@@ -55,6 +55,7 @@ public class MarkControl {
         }
 
         System.out.println("Ortalamanız: " + average);
+
     }
 }
 
