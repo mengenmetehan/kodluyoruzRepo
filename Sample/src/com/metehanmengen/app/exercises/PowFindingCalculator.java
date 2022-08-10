@@ -2,7 +2,7 @@ package com.metehanmengen.app.exercises;
 
 import java.util.Scanner;
 
-public class powFindingCalculator {
+public class PowFindingCalculator {
     public static void calculator()
     {
         Scanner kb = new Scanner(System.in);
