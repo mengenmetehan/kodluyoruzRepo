@@ -18,7 +18,6 @@ public class PlaneTicket {
         System.out.print("Yolculuk tipini giriniz (1=> Tek Yön, 2=> Gidiş Dönüş): ");
         travelType = inp.nextInt();
 
-        // KM başına ücret
         price = km * 0.10;
 
         // Mesafe ve yaş pozitif, yolculuk tipi 1 ve 2 olmalı
