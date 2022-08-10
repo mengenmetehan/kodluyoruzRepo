@@ -6,7 +6,8 @@ public class FibonacciNumber {
         for (int i = 1; i <= 20; i++)
             System.out.print(getFibonacciNumber(i) +" ");
     }
-    public static int getFibonacciNumber(int n)
+
+    private static int getFibonacciNumber(int n)
     {
         if (n <= 2)
             return n - 1;
