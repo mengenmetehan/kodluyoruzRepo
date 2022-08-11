@@ -1,4 +1,4 @@
-package com.metehanmengen.app.exercises.exercises;
+package com.metehanmengen.app.exercises.arrays;
 
 import java.util.Scanner;
 
