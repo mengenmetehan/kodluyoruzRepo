@@ -3,10 +3,11 @@ package com.metehanmengen.app.exercises.salarycalculator;
 public class Employee {
     //veri elemanlarını encapsulation gereği private yaptım. tek değer alacağı için de final.
     private final String name;
-    private final double salary;
+    private double salary;
     private final int workHours;
     private final int hireYear; // İşe başlangıç yılı.
     private final int nowYear;
+    private double lastSalary;
 
     public Employee(String name, int salary, int workHours, int hireYear, int nowYear)
     {
@@ -66,11 +67,16 @@ public class Employee {
             raise = salary * 0.15;
         return raise;
     }
+    public void totalSalary()
+    {
+        if(raiseSalary(nowYear) > 0)
+            lastSalary = raiseSalary(nowYear) + salary;
+    }
     @Override
     public String toString()
     {
-        return String.format("%s isimli çalışanın maaşı : %2f dir. %n%d saat çalışır. %d tarihinde işe girmiştir. %n%02f bonusu bulunmaktadır. %02f vergi öder.%n%02f maaşı arttırılacak. "
-                ,name ,salary, workHours, hireYear, bonus(), tax(), raiseSalary(nowYear));
+        return String.format("%s isimli çalışanın maaşı : %2f dir. %n%d saat çalışır. %d tarihinde işe girmiştir. %n%02f bonusu bulunmaktadır. %02f vergi öder.%n%02f maaşı arttırılacak. %f güncel maaşıdır. "
+                ,name ,salary, workHours, hireYear, bonus(), tax(), raiseSalary(nowYear), lastSalary);
     }
 
 
