@@ -1,6 +1,5 @@
 package com.metehanmengen.app.exercises.game;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class PalindromeString {
